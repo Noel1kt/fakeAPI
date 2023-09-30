@@ -1,78 +1,824 @@
 {
-  "categorias": [
+    "Familias":[
       {
-          "id": "bienestar",
-          "nombre": "bienestar",
-          "subcategorias": [
-              "higiene",
-              "salud"
-          ]
+        "id": "Boidae",
+        "nombre": "Boidae"
       },
       {
-          "id": "comportamiento",
-          "nombre": "comportamiento",
-          "subcategorias": [
-              "entrenamiento",
-              "educacion"
-          ]
+        "id": "Colubridae",
+        "nombre": "Colubridae"
+      },
+      {
+        "id": "Elapidae",
+        "nombre": "Elapidae"
+      },
+      {
+        "id": "Leptotyphlopidae",
+        "nombre": "Leptotyphlopidae"
+      }, 
+      {
+        "id": "Loxocemidae",
+        "nombre": "Loxocemidae"
+      }, 
+      {
+        "id": "Viperidae",
+        "nombre": "Viperidae"
       }
-  ],
-  "posts": [
+    ],
+
+    "Serpientes": [
       {
-          "id": 1,
-          "title": "Baño en perros",
-          "metadescription": "Utiliza las herramientas ideales para bañar a tu perro",
-          "body": "La mayoría de los perros prefieren saltarse la hora del baño, pero el baño juega un papel importante en la salud del pelaje y la piel de su perro, ya que ayuda a mantenerla limpia y libre de suciedad y parásitos. Tener los productos adecuados puede ayudarlo a sentirse más cómodo.",
-          "categoria": "bienestar",
-          "subcategoria": "higiene"
+        "id": 1,
+        "familia": "Boidae",
+        "nombreComun": "Mazacuata, boa",
+        "nombreCientifico": "Boa-constrictor",
+        "descripcion": "Es una de las especies más conocidas en Guatemala. Generalmente no sobrepasa los tres metros de longitud aunque se han reportado individuos de 5.50 m. La cabeza es más o menos triangular y las pupilas son verticales. En el rostro se observa una mancha que semeja un antifaz. El color de fondo puede variar en tonalidades de gris y marrón, además presenta un patrón reticulado más oscuro. A los lados de la cloaca, presentan espolones en forma de uña que son más desarrollados en los machos.",
+        "distribucionEnGuatemala": "Está presente en todo el país, en elevaciones que van de cero a 900 msnm (Campbell y Vannini 1989).",
+        "historiaNatural": "Es de hábitos principalmente nocturnos aunque ocasionalmente puede observarse de día, principalmente en hábitats de vegetación densa. Es terrestre o arborícola y se alimenta de iguanas y otras lagartijas, aves y mamíferos. Las jóvenes son más arborícolas que las adultas. Las hembras pueden parir de 12 a 64 crías entre los meses de mayo y agosto (Campbell 1998).",
+        "venenosidad": "No venenosa",
+        "img": "https://upload.wikimedia.org/wikipedia/commons/9/9b/B._constrictor.jpg"
       },
       {
-          "id": 2,
-          "title": "Tu cachorro merece un tapete higiénico",
-          "metadescription": "El baño que tu cachorro merece",
-          "body": "Los tapetes higiénicos son una innovación en el mercado de las mascotas, perfectas para que tu perro haga sus necesidades con comodidad y sin ensuciar la casa. Son productos desechables o lavables que garantizan la comodidad de tu mascota.",
-          "categoria": "bienestar",
-          "subcategoria": "higiene"
+        "id": 2,
+        "familia": "Boidae",
+        "nombreComun": "Boa anillada",
+        "nombreCientifico": "Corallus annulatus",
+        "descripcion": "Es una serpiente de cabeza grande y ojos con pupila vertical (Campbell 1998). Puede medir hasta 1.70 m. Los adultos son de color marrón pálido con manchas marrón ligeramente más oscuro. Los jóvenes son de color canela (Campbell 1998).",
+        "distribucionEnGuatemala": "Noreste de Izabal (Köhler 2003).",
+        "historiaNatural": "Serpiente arborícola, de bosque húmedo, de hábitos nocturnos (Campbell 1989).",
+        "venenosidad": "No venenosa",
+        "img":"https://static.inaturalist.org/photos/60032/large.jpg"
       },
       {
-          "id": 3,
-          "title": "¿Época de pulgas?",
-          "metadescription": "Es necesario evitar que tus mascotas contraigan estos parásitos",
-          "body": "No es la mordedura, sino la reacción alérgica a ella lo que hace que tu perro sienta comezón. Algunas mascotas son hipersensibles a las pulgas y pueden tener una reacción grave con solo un mordisco. Sin embargo, todas las mascotas experimentarán molestias por las picaduras de pulgas. Entonces, tan pronto como veas rasguños repetidos, sospeche de las pulgas.",
-          "categoria": "bienestar",
-          "subcategoria": "salud"
+        "id": 3,
+        "familia": "Colubridae",
+        "nombreComun": "Zacatera de montaña",
+        "nombreCientifico": "Adelphicos daryi",
+        "descripcion": "Se ha reportado una longitud de hasta 57.4 cm. Dorsalmente es marrón grisácea con líneas longitudinales y en la parte ventral es amarilla pálida con una línea oscura en la cola (Köhler 2003).",
+        "distribucionEnGuatemala": "Montañas del centro sur de Guatemala (Acevedo 2006).",
+        "historiaNatural": "Se encuentra en bosques de pino-encino; viven bajo la hojarasca, material vegetal en descomposición y troncos podridos. Nocturna. Se alimenta de lombrices de tierra (Köhler 2003).",
+        "venenosidad": "No venenosa",
+        "img":"https://biodiversidad.gt/imglib/guatemala/Dipsadidae/202108/USACF000002_1600888248_1628528739.jpg"
       },
       {
-          "id": 4,
-          "title": "¿Tu mascota está estresada?",
-          "metadescription": "El cambio de rutina puede ser el mayor factor.",
-          "body": "Talvez eres de las personas que le dan atención adicional, pero cuando tienes que ir a la oficina o a realizar alguna actividad lo dejas en tu casa, causandole esa falta de atención que le brindas constantemente, lo ideal es mimarlos en la medida cierta. Debido a la pandemia hemos estado más presentes en nuestro hogar lo cuál puede acostumbrar a tu mascota a estar más tiempo contigo.",
-          "categoria": "comportamiento",
-          "subcategoria": "educacion"
+        "id": 4,
+        "familia": "Colubridae",
+        "nombreComun": "Zacatera",
+        "nombreCientifico": "Adelphicos quadrivirgatus",
+        "descripcion": "Alcanza 40 cm de longitud. Color gris o marrón con cuatro líneas longitudinales oscuras (Campbell 1998).",
+        "distribucionEnGuatemala": "Norte y bocacosta sur. Hasta los 1500 msnm (Campbell y Vannini 1989).",
+        "historiaNatural": "Serpiente pequeña, evasiva. Viven bajo la hojarasca, material vegetal en descomposición y troncos podridos. Nocturna. Se alimenta de lombrices de tierra (Köhler 2003).",
+        "venenosidad": "No venenosa",
+        "img":"https://inaturalist-open-data.s3.amazonaws.com/photos/64487063/large.jpeg"
       },
       {
-          "id": 5,
-          "title": "¿Cómo entrenar a tu perro para que no tenga miedo?",
-          "metadescription": "La socialización es un grande factor en este aprendizaje.",
-          "body": "Solo se puede enseñar a un perro a dejar de tener miedo aumentando su confianza en sí mismo. Esto significa cambiar la forma en que reacciona su mente en determinadas situaciones y convertir las asociaciones negativas en positivas. Hacer esto requiere mucha paciencia y una serie de exposiciones controladas al evento u objeto temido, pero lo suficientemente lejos como para que el perro no se sienta ansioso.",
-          "categoria": "comportamiento",
-          "subcategoria": "educacion"
+        "id": 5,
+        "familia": "Colubridae",
+        "nombreComun": "Zopilota, mataculebra",
+        "nombreCientifico": "Clelia clelia",
+        "descripcion": "Llega a medir hasta 2 m de longitud. Los adultos son color negro brillante uniforme en el dorso y el vientre es color crema. Los jóvenes son de color rojo brillante, la cabeza es negra con una diadema central amarilla.",
+        "distribucionEnGuatemala": "Se distribuye en el sureste de Petén e Izabal desde los 0 hasta los 1000 msnm.",
+        "historiaNatural": "Es nocturna, se alimenta principalmente de otras serpientes, pero también come lagartijas (Campbell 1998).",
+        "venenosidad": "Moderadamente venenosa",
+        "img":"https://www.ecoregistros.org/site/images/dataimages/2019/06/13/336683/clelia_clelia-Horno-ladrillos.jpg"
       },
       {
-          "id": 6,
-          "title": "¿Por qué los gatos ronroñean?",
-          "metadescription": "El ronroneo es una señal de aviso.",
-          "body": "Una cosa que los científicos saben con certeza es que la parte del cerebro del gato que controla las vocalizaciones está muy conectada con la parte del cerebro que controla las emociones del gato. Entonces, lo que el gato está “diciendo” es absolutamente un reflejo de como se siente.",
-          "categoria": "comportamiento",
-          "subcategoria": "entrenamiento"
+        "id": 6,
+        "familia": "Colubridae",
+        "nombreComun": "Sabanera, basurera, ranera",
+        "nombreCientifico": "Coniophanes fissidens",
+        "descripcion": "El tamaño medio es de 60 cm. Es de color marrón, con dos franjas más claras a los lados del dorso que nacen de una mancha aislada en la base del cuello. La mandíbula es blanca con pecas oscuras de forma y tamaño irregular. La pupila es redonda.",
+        "distribucionEnGuatemala": "Costa sur y sur de Petén en elevaciones de 0 a 1830 msnm (Campbell y Vannini 1989).",
+        "historiaNatural": "Serpiente terrestre que se esconde bajo hojarasca, troncos o piedras en el bosque húmedo o áreas de cultivo. Se alimenta de salamandras, ranas y sus huevos, sapos, lagartijas, serpientes (incluyendo las de su especie), huevos de reptiles, lombrices y orugas (Lee 2000, Campbell 1998). La hembra oviposita usualmente de 2 a 4 huevos entre los meses de marzo a julio (Campbell 1998).",
+        "venenosidad": "Levemente venenosa",
+        "img":"https://upload.wikimedia.org/wikipedia/commons/5/52/Coniophanes_fissidens.jpg"
       },
       {
-          "id": 7,
-          "title": "¿Cómo entrenar a tu gato?",
-          "metadescription": "Si, tu puedes entrenar a tu gato y es mucho más fácil de lo que pensabas.",
-          "body": "Puedes utilizar herramientas de entrenamiento para una amplia variedad de animales, un 'clicker' solo costará unos pocos dólares y te ayudará a dar un refuerzo positivo cuando aprendas a entrenar a un gato. (También puedes usar un bolígrafo normal con un botón de click; lo importante es tener un ruido distintivo). La mayoría de los entrenamientos para gatos implican darle a tu gato una golosina que le guste después de un click para marcar el comportamiento deseado.",
-          "categoria": "comportamiento",
-          "subcategoria": "entrenamiento"
-      }
-  ]
-}
+        "id": 7,
+        "familia": "Colubridae",
+        "nombreComun": "Sabanera rayada",
+        "nombreCientifico": "Coniophanes schmidti",
+        "descripcion": "Serpiente mediana, alcanza los 70 cm de longitud. Dorso marrón oscuro con dos líneas claras a lo largo de todo el cuerpo. Vientre color beige.",
+        "distribucionEnGuatemala": "Únicamente en el noreste de Petén (Lee 2000).",
+        "historiaNatural": "Terrestre, nocturna o crepuscular. Habita bosque seco y lluvioso. Se alimenta probablemente de ranas, sapos y lagartijas (Campbell 1998).",
+        "venenosidad": "Levemente venenosa",
+        "img":"https://inaturalist-open-data.s3.amazonaws.com/photos/4993551/original.jpg"
+      },
+      {
+        "id": 8,
+        "familia": "Colubridae",
+        "nombreComun": "Sabanera, murishquera",
+        "nombreCientifico": "Coniophis lineatus",
+        "descripcion": "La cabeza es apenas más angosta que el resto del cuerpo. La pupila es redonda. Alcanza 1.17 m de longitud (Köhler 2003). El patrón de color varía de acuerdo a la región, por lo general son rayadas, alternando bandas oscuras con claras.",
+        "distribucionEnGuatemala": "Se distribuye en todo el país, excepto el occidente y el norte de Petén (Köhler 2003) en elevaciones de 0 a 1500 msnm (Campbell y Vannini 1989).",
+        "historiaNatural": "Especie diurna de movimiento rápido, habita áreas abiertas tales como sabanas, playas y claros del bosque. Se alimenta de ranas, pequeños mamíferos, lagartijas y serpientes a los cuales somete con su veneno (Köhler 2003).",
+        "venenosidad": "Moderadamente venenosa (el veneno produce dolor, hinchazón y cambio de color en el área de la mordedura).",
+        "img":"https://inaturalist-open-data.s3.amazonaws.com/photos/11827863/large.jpg"
+      },
+      {
+        "id": 9,
+        "familia": "Colubridae",
+        "nombreComun": "Zumbadora, voladora",
+        "nombreCientifico": "Drymarchon melanurus",
+        "descripcion": "Serpiente grande, puede alcanzar los 2.95 m de longitud. El color puede ser gris, marrón claro, rojo o negro. Las tonalidades claras se caracterizan por presentar la cola negra. En el rostro, se observan tres líneas negras que bajan del ojo a la mandíbula. El ojo es relativamente grande con pupila redonda. Los jóvenes pueden presentar motas negras en la primera parte del cuerpo.",
+        "distribucionEnGuatemala": "Está presente en todo el país, entre los 0 y los 1900 msnm (Campbell 1998).",
+        "historiaNatural": "Especie diurna de movimientos rápidos. Habita en sabanas, manglares, bosques espinosos y bosques húmedos. Está a menudo asociada al agua. Es principalmente terrestre. Se alimenta de aves, pequeños mamíferos, peces, pequeñas tortugas, ranas, sapos, lagartijas, serpientes incluyendo las especies venenosas. La hembra oviposita 4 a 11 huevos (Lee 2000).",
+        "venenosidad": "No venenosa",
+        "img":"https://inaturalist-open-data.s3.amazonaws.com/photos/17945109/large.jpg"
+      },
+      {
+        "id": 10,
+        "familia": "Colubridae",
+        "nombreComun": "Ranera",
+        "nombreCientifico": "Drymobius chloroticus",
+        "descripcion": "Serpiente de tamaño mediano, de hasta 1.20 m de longitud. Las escamas son verdes aunque los individuos de zonas montañosas pueden ser marrón y verde. Los ojos son grandes, con pupila redonda.",
+        "distribucionEnGuatemala": "Bocacosta del Pacífico y Las Verapaces (Acevedo 2006).",
+        "historiaNatural": "Actividad diurna.",
+        "venenosidad": "No venenosa",
+        "img":"https://inaturalist-open-data.s3.amazonaws.com/photos/23058740/large.jpeg"
+      },
+      {
+        "id": 11,
+        "familia": "Colubridae",
+        "nombreComun": "Ranera",
+        "nombreCientifico": "Drymobius margaritiferus",
+        "descripcion": "Serpiente de tamaño mediano, de hasta 1.34 m de longitud. Las escamas son verdes con amarillo y negro. Los ojos son grandes, con pupila redonda. Esta especie es inconfundible.",
+        "distribucionEnGuatemala": "Se distribuye en toda Guatemala, en elevaciones entre los 0 y los 1830 msnm (Campbell y Vannini 1989).",
+        "historiaNatural": "Principalmente terrestre, en todos los hábitats. Se alimenta principalmente de lagartijas y ranas aunque consume también pequeños mamíferos y huevos de reptiles (Lee 2000). Actividad diurna.",
+        "venenosidad": "No venenosa",
+        "img":"https://inaturalist-open-data.s3.amazonaws.com/photos/1482433/medium.jpg"
+      },
+      {
+        "id": 12,
+        "familia": "Colubridae",
+        "nombreComun": "Culebrita de collar",
+        "nombreCientifico": "Enulius flavitorques",
+        "descripcion": "Serpiente pequeña, color rojizo, con un collar incompleto amarillento. Alcanza los 50 centímetros (Köhler 2003). Tiene la nariz aplastada.",
+        "distribucionEnGuatemala": "Se distribuye en Guatemala a lo largo de la costa sur desde los 0 hasta los 850 msnm.",
+        "historiaNatural": "Habita bajo troncos y hojas podridas y se alimenta de termitas y hormigas (Köhler 2003).",
+        "venenosidad": "No venenosa",
+        "img":"https://inaturalist-open-data.s3.amazonaws.com/photos/113405890/original.jpeg"
+      },
+      {
+        "id": 13,
+        "familia": "Colubridae",
+        "nombreComun": "Nariz de gancho",
+        "nombreCientifico": "Ficimia publia",
+        "descripcion": "Serpiente pequeña, usualmente alcanza los 45 cm. El color puede variar de anaranjado hasta marrón, con manchas oscuras. La punta de la trompa está dirigida hacia arriba. Los ojos son pequeños, redondos y oscuros.",
+        "distribucionEnGuatemala": "Se encuentra en la costa sur, Petén e Izabal, hasta los 600 msnm (Köhler 2003).",
+        "historiaNatural": "Serpiente evasiva, puede encontrarse en bosque espinoso, bosque deciduo, sabanas y áreas agrícolas. Terrestre, nocturna, se alimenta principalmente de arañas (Lee 2000).",
+        "venenosidad": "No venenosa",
+        "img":"https://inaturalist-open-data.s3.amazonaws.com/photos/75369153/original.jpeg"
+      },
+      {
+        "id": 14,
+        "familia": "Colubridae",
+        "nombreComun": "Hojarasquera",
+        "nombreCientifico": "Geophis immaculatus",
+        "descripcion": "Serpiente pequeña, de hasta 30.5 cm (Köhler 2003). Gris en el dorso, blanca en el vientre. Tiene el rostro en forma de cuña.",
+        "distribucionEnGuatemala": "Bosque húmedo y bosque nuboso de los 1500 a los 2500 msnm (Köhler 2003). Oeste de la cadena volcánica del Pacífico (Acevedo 2006).",
+        "historiaNatural": "Nocturna, cavadora. Se alimenta probablemente de larvas de insectos, lombrices, sanguijuelas y babosas.",
+        "venenosidad": "No venenosa",
+        "img":"https://inaturalist-open-data.s3.amazonaws.com/photos/42384369/large.jpg"
+      },
+      {
+        "id": 15,
+        "familia": "Colubridae",
+        "nombreComun": "Hojarasquera",
+        "nombreCientifico": "Geophis nasalis",
+        "descripcion": "Serpiente pequeña, de hasta 35 cm de longitud (Köhler 2003). Es gris plomo en el dorso y el vientre es blancuzco. La cabeza tiene forma de cuña. Los ojos son pequeños, redondos y oscuros.",
+        "distribucionEnGuatemala": "Altiplano y sureste de Guatemala, en elevaciones de los 600 a los 1500 msnm, en bosques subtropicales húmedos y muy húmedos (Campbell 2004).",
+        "historiaNatural": "Nocturna, cavadora. Se alimenta probablemente de larvas de insectos, lombrices, sanguijuelas y babosas.",
+        "venenosidad": "No venenosa",
+        "img":"https://inaturalist-open-data.s3.amazonaws.com/photos/140293600/small.jpeg"
+      },
+      {
+        "id": 16,
+        "familia": "Colubridae",
+        "nombreComun": "Hojarasquera",
+        "nombreCientifico": "Geophis rhodogaster",
+        "descripcion": "Serpiente pequeña, de alrededor de 38 cm (Köhler 2003). Color gris oscuro en el dorso y amarillo naranja en el vientre. La cabeza tiene forma de cuña y la nariz es larga. Los ojos son pequeños, redondos y oscuros.",
+        "distribucionEnGuatemala": "Altiplano, en elevaciones de 1500 a 2500 msnm exceptuando la Sierra de Las Minas (Campbell y Vannini 1989).",
+        "historiaNatural": "Nocturna, cavadora. Posiblemente se alimenta de larvas de insectos, lombrices, sanguijuelas y babosas.",
+        "venenosidad": "No venenosa",
+        "img":"https://inaturalist-open-data.s3.amazonaws.com/photos/141670669/original.jpeg"
+      },
+      {
+          "id": 17,
+          "familia": "Colubridae",
+          "nombreComun": "Bejuquillo",
+          "nombreCientifico": "Imantodes cenchoa",
+          "descripcion": "Serpiente de cuerpo muy largo, aplanado lateralmente. Mide alrededor de 1.11 m (Köhler 2003). La cabeza es grande con ojos grandes redondos y saltones. El colorde fondo es anaranjado en los jóvenes y marrón claro amarillento en los adultos, ambos con bandas transversales negras",
+          "distribucionEnGuatemala": "Norte y boca costa sur.",
+          "historiaNatural": "Es crepuscular y nocturna. Son principalmente arbóreas pero también puede encontrarse en el suelo. Se alimenta de lagartijas y ranas (Köhler 2003, Lee 2000, Campbell 1998).",
+          "venenosidad": "No venenosa",
+          "img": "https://upload.wikimedia.org/wikipedia/commons/d/dc/Imantodes_cenchoa_%28Yasuni%29.jpg"
+      },
+      {
+          "id": 18,
+          "familia": "Colubridae",
+          "nombreComun": "Falso coral",
+          "nombreCientifico": "Lampropeltis triangulum",
+          "descripcion": "Serpiente que imita a los corales. El patrón de color consiste en anillos completos, claramente definidos de color rojo, negro y amarillo (oblanquecino). Ojos de tamaño mediano a grande con pupila redonda. Mide hasta 2 m de longitud (Köhler 2003). ",
+          "distribucionEnGuatemala": "Todo el país, de los 0 a los 1560 msnm (Campbell y Vannini 1989).",
+          "historiaNatural": ": Terrestre, ocurre en la mayoría de los hábitats. Principalmente nocturna. Se alimenta de lagartijas, ranas, serpientes y pequeños mamíferos (Lee 2000)",
+          "venenosidad": "No venenosa",
+          "img": "https://upload.wikimedia.org/wikipedia/commons/a/aa/Red_milk_snake.JPG"
+      },
+      {
+          "id": 19,
+          "familia": "Colubridae",
+          "nombreComun": "Ojo de gato",
+          "nombreCientifico": "Leptodeira annulata",
+          "descripcion": "Mide alrededor de 87 cm (Köhler 2003). Serpiente de cuerpo delgado, cabeza mediana de forma triangular y ojos con pupilas verticales. Color marrón con manchas más oscuras con bordes negros y beige.",
+          "distribucionEnGuatemala": "Sur y suroriente, en bosque húmedo, lluvioso y seco. De los 0 a los 1000 msnm (Köhler 2003, Campbell y Vannini 1989). ",
+          "historiaNatural": "Nocturna, arbórea y terrestre. Se encuentra frecuentemente cerca de los asentamientos humanos y en matorrales. Se alimenta de ranas, pequeñas serpientes y lagartijas (Köhler 2003).",
+          "venenosidad": "Levemente venenosa",
+          "img": "https://upload.wikimedia.org/wikipedia/commons/9/90/Leptodeira_annulata01a.jpeg"
+      },
+      {
+          "id": 20,
+          "familia": "Colubridae",
+          "nombreComun": "Ojo de gato",
+          "nombreCientifico": "Leptodeira frenata",
+          "descripcion": "Alcanza 70 cm de largo. Color marrón claro rosáceo, con manchas marrón bordeadas de negro. Cabeza grande de forma triangular. Ojos grandes con pupila vertical (Köhler 2003, Lee 2000, Campbell 1998).",
+          "distribucionEnGuatemala": "Petén.",
+          "historiaNatural": "Habita en bosque tropical húmedo y bosque seco. Arbórea y terrestre. Nocturna. Se alimenta de ranas y lagartijas (Köhler 2003, Campbell 1998).",
+          "venenosidad": "Levemente venenosa",
+          "img": "https://inaturalist-open-data.s3.amazonaws.com/photos/91269563/large.jpg"
+      },
+      {
+          "id": 21,
+          "familia": "Colubridae",
+          "nombreComun": "Ojo de gato",
+          "nombreCientifico": "Leptodeira septentrionalis",
+          "descripcion": "Color marrón claro con manchas oscuras irregulares a lo largo del dorso. Los ojos son grandes, la pupila es vertical y elíptica. La longitud va de 65 a 80 cm (Lee 2000)",
+          "distribucionEnGuatemala": "Todo el país, excepto el occidente y la zona de vida matorral espinoso, de los 0 a los 2300 msnm. (Campbell y Vannini 1989).",
+          "historiaNatural": "Nocturna, principalmente arbórea. Se alimenta de ranas y sus huevos, lagartijas, serpientes y pequeños mamíferos (Lee 2000).",
+          "venenosidad": "Levemente venenosa",
+          "img": "https://ecosdelbosque.com/sites/default/files/styles/specie_slider/public/2023-05/leptodeira_septentrionalis_01.jpg?itok=-Y2zfOp7"
+      },
+      {
+          "id": 22,
+          "familia": "Colubridae",
+          "nombreComun": "Bejuquillo rayado",
+          "nombreCientifico": "Leptodrymus pulcherrimus",
+          "descripcion": "Serpiente larga de cabeza grande y pupilas redondas de colores verde y marrón claro con vientre blanco. Mide 98 cm (Köhler 2003). Posee dos franjas negras que parten del ojo hacia atrás, a lo largo de todo el cuerpo.",
+          "distribucionEnGuatemala": "En la costa pacífica, y en la región de Salamá. De los 140 hasta los 650 msnm (Köhler 2003).",
+          "historiaNatural": " Nocturna, de hábitos terrestres. Se mueve rápidamente. Se alimenta principalmente de lagartijas (Köhler 2003).",
+          "venenosidad": "No hay información de que sea venenosa",
+          "img": "https://upload.wikimedia.org/wikipedia/commons/e/ee/Leptodrymus_pucherrimus.jpg"
+      },
+      {
+          "id": 23,
+          "familia": "Colubridae",
+          "nombreComun": "Ranera, bejuquillo",
+          "nombreCientifico": "Leptophis ahaetulla",
+          "descripcion": "Serpiente de cuerpo largo, con la cabeza moderadamente grande y elongada, ojos grandes con pupila redonda de color negro e iris amarillo. Es de color verde claro, tiene una franja negra desde la nariz hasta la parte posterior de la cabeza en ambos lados. Llega a medir hasta 2.25 m (Köhler 2003).",
+          "distribucionEnGuatemala": "Petén y el Caribe de Guatemala (Acevedo 2006).",
+          "historiaNatural": ": Principalmente diurna y arbórea. Se alimenta principalmente de ranas, también puede comer salamandras, lagartijas y huevos de aves y de serpientes (Köhler 2003).",
+          "venenosidad": "Moderadamente venenosa",
+          "img": "https://static.inaturalist.org/photos/27254452/large.jpeg"
+      },
+      {
+          "id": 24,
+          "familia": "Colubridae",
+          "nombreComun": "Bejuquillo, ranera",
+          "nombreCientifico": "Leptophis mexicanus",
+          "descripcion": "Serpiente de cuerpo largo, con la cabeza moderadamente grande y elongada, ojos grandes con pupila redonda de color negro e iris amarillo. El dorso es marrón, con una franja verde a ambos lados. Tiene una franja negra desde la nariz hasta el cuello en ambos lados. El vientre es blanco grisáceo. Mide de 71 a 120 cm (Campbell y Vannini 1989, Lee 2000).",
+          "distribucionEnGuatemala": "Costa y boca costa sur, tierras bajas y elevaciones moderadas del norte del país (Acevedo 2006). ",
+          "historiaNatural": "Principalmente arborícola, se alimenta de lagartijas, ranas, renacuajos, pequeñas serpientes y huevos de aves (Lee 2000). Actividad diurna. Es muy veloz. ",
+          "venenosidad": "Moderadamente venenosa",
+          "img": "https://upload.wikimedia.org/wikipedia/commons/6/60/Leptophis_mexicanus.jpg"
+      },
+      {
+          "id": 25,
+          "familia": "Colubridae",
+          "nombreComun": "Zumbadora",
+          "nombreCientifico": "Masticophis mentovarius",
+          "descripcion": "Serpiente grande, robusta, de color marrón o marrón rojizo con vientre color claro. Los jóvenes son de color verde olivo con el rostro manchado. Los ojos son grandes con pupila redonda. No posee colmillos y alcanza una longitud de 2.50 m (Campbell 1998).",
+          "distribucionEnGuatemala": "Bosques secos de la costa sur, Valle del Motagua, Valle del Río Lagartero y norte de Petén (Acevedo 2006) de los 0 a los 1,400 msnm (Campbell y Vannini 1989).",
+          "historiaNatural": "Principalmente terrestre, alerta, nerviosa, de movimientos rápidos (Lee 2000). Se alimenta de ranas, lagartijas, salamandras y pequeños mamíferos (Campbell 1998).",
+          "venenosidad": "No venenosa",
+          "img": "https://inaturalist-open-data.s3.amazonaws.com/photos/55723115/large.jpg"
+      },
+      {
+          "id": 26,
+          "familia": "Colubridae",
+          "nombreComun": "Sabanera verde",
+          "nombreCientifico": "Mastigodryas dorsalis",
+          "descripcion": "Serpiente de color verde olivo con un tono más claro en el vientre y una línea oscura en el dorso. Mide 1.14 m (Köhler 2003). Los ojos son grandes con la pupila redonda. Los jóvenes presentan el primer tercio del cuerpo con un patrón cuadriculado.",
+          "distribucionEnGuatemala": "Boca costa del Pacífico y bosques nubosos de la República incluido el altiplano (Acevedo 2006).",
+          "historiaNatural": ": Esta especie es diurna y muy ágil. Se alimenta principalmente de lagartijas, pero también puede comer ranas, serpientes y roedores (Köhler 2003).",
+          "venenosidad": "No venenosa",
+          "img": "https://inaturalist-open-data.s3.amazonaws.com/photos/45040518/original.jpg"
+      },
+      {
+          "id": 27,
+          "familia": "Colubridae",
+          "nombreComun": "Sabanera marrón",
+          "nombreCientifico": "Mastigodryas melanolomus",
+          "descripcion": ": Serpiente elongada, de cola muy larga (generalmente la mitad de la longitud del cuerpo). Cabeza ligeramente más ancha que el cuerpo. Ojos relativamente grandes con pupila redondeada. Se han descrito dos fases de color para Guatemala, una verde olivo y la otra naranja rojizo (Campbell 1998). Los jóvenes presentan un patrón de coloración con bandas. Alcanza una longitud de 1.5 m (Campbell 1998).",
+          "distribucionEnGuatemala": "Sur y norte de Guatemala (Köhler 2003). De los 0 a los 2250 msnm (Campbell y Vannini 1989).",
+          "historiaNatural": "Esta especie terrestre es activa durante el día y comúnmente se le ve atravesando los senderos. Se alimenta principalmente de reptiles, en especial lagartijas (Campbell 1998). La hembra oviposita 2 a 5 huevos entre los meses de agosto a noviembre (Campbell 1998)",
+          "venenosidad": "No venenosa",
+          "img": "https://static.inaturalist.org/photos/80901423/large.jpeg"
+      },
+      {
+        "id": 29,
+        "familia": "Colubridae",
+        "nombreComun": "Gargantilla de collar",
+        "nombreCientifico": "Ninia diademata",
+        "descripcion": "Serpiente pequeña de color gris oscuro, con un collar rojizo en la parte posterior de la cabeza. Las escamas dorsales son quilladas. Las escamas ventrales son blancas con un punto gris oscuro. Longitud de 35 cm (Campbell 1998).",
+        "distribucionEnGuatemala": "Norte y boca costa sur. Elevaciones de 630 a 1830 msnm (Campbell y Vannini 1989).",
+        "historiaNatural": "Nocturna, terrestre. Se alimenta principalmente de caracoles y babosas. Ante una amenaza se yergue.",
+        "venenosidad": "No venenosa",
+        "img": "https://static.inaturalist.org/photos/29307053/large.jpg"
+    },
+    {
+        "id": 30,
+        "familia": "Colubridae",
+        "nombreComun": "Madre de coral, coral, basurera",
+        "nombreCientifico": "Ninia sebae",
+        "descripcion": "Es una de las serpientes más comunes de Guatemala. Frecuentemente aparece en los jardines. Es pequeña, de color rojo con o sin marcas negras, con la cabeza color negro con una o dos franjas amarillas. Longitud de 35 cm (Campbell 1998).",
+        "distribucionEnGuatemala": "Todo el país, excepto la costa sur en elevaciones de 0 a 2000 msnm (Campbell y Vannini 1989).",
+        "historiaNatural": "Terrestre, común en una amplia variedad de hábitats. Principalmente nocturna. Se alimenta de lombrices de tierra, caracoles y babosas (Lee 2000).",
+        "venenosidad": "No venenosa",
+        "img": "https://inaturalist-open-data.s3.amazonaws.com/photos/27126458/large.jpeg"
+    },
+    {
+        "id": 31,
+        "familia": "Colubridae",
+        "nombreComun": "Bejuquillo, bejuquilla marrón",
+        "nombreCientifico": "Oxybelis aeneus",
+        "descripcion": "Serpiente de cuerpo largo y delgado con cabeza grande puntiaguda. Ojos con pupilas redondas. El color del dorso es marrón claro. La mandíbula es amarillo pálido y el vientre del cuerpo es blanco. El interior de la boca es oscuro. La longitud es de 1.50 m (Campbell 1998).",
+        "distribucionEnGuatemala": "Todo el país, excepto el altiplano occidental, en elevaciones de 0 a los 1500 msnm (Campbell y Vannini 1989).",
+        "historiaNatural": "Diurna, arborícola, común en áreas abiertas y bosques secundarios. Se alimenta principalmente de lagartijas y ocasionalmente insectos, ranas, aves y pequeños mamíferos (Lee 2000).",
+        "venenosidad": "Levemente venenosa",
+        "img": "https://inaturalist-open-data.s3.amazonaws.com/photos/5490785/large.jpg"
+    },
+    {
+        "id": 32,
+        "familia": "Colubridae",
+        "nombreComun": "Bejuquillo, bejuquilla verde",
+        "nombreCientifico": "Oxybelis fulgidus",
+        "descripcion": "Serpiente de cuerpo largo y delgado con cabeza grande puntiaguda. Los ojos son medianos con pupilas redondas. Todo el cuerpo es de color verde intenso con la parte ventral y mandíbula amarillo limón. La longitud es de 2 m (Campbell 1998).",
+        "distribucionEnGuatemala": "Costa sur y norte de Petén en elevaciones de 0 a 1000 msnm (Köhler 2003).",
+        "historiaNatural": "Diurna, principalmente arborícola, común en matorral espinoso, bosques secundarios y bordes de bosques. Se alimenta de lagartijas, aves y pequeños mamíferos (Lee 2000).",
+        "venenosidad": "Levemente venenosa",
+        "img": "https://multimedia20stg.blob.core.windows.net/especiesreduced/01047_s_10afattwuq0246.jpg"
+    },
+    {
+        "id": 33,
+        "familia": "Colubridae",
+        "nombreComun": "Mazacuata de montaña, mazacuata de tierra fría",
+        "nombreCientifico": "Pituophis lineaticollis",
+        "descripcion": "Serpiente robusta de color marrón claro con manchas negras sólidas en el tercio anterior del cuerpo y con forma de roseta en los dos tercios posteriores. Los ojos son grandes con pupila redonda. La longitud es de 2.10 m (Köhler 2003).",
+        "distribucionEnGuatemala": "Altiplano occidental y norte, en elevaciones desde 1430 a 2200 msnm (Campbell y Vannini 1989).",
+        "historiaNatural": "Terrestre, diurna. Se alimenta de pequeños vertebrados. Reproducción ovípara.",
+        "venenosidad": "No venenosa",
+        "img": "https://static.inaturalist.org/photos/11579845/large.jpeg"
+    },
+    {
+        "id": 34,
+        "familia": "Colubridae",
+        "nombreComun": "Coralillo, falso coral, coral",
+        "nombreCientifico": "Pliocercus elapoides",
+        "descripcion": "Serpiente delgada y pequeña que alcanza alrededor de 66 cm de longitud (Köhler 2003). La coloración es variable e imita el patrón de los corales verdaderos, generalmente con anillos rojos, amarillos (o blancos) y negros.",
+        "distribucionEnGuatemala": "Costa sur y norte del país hasta los 1,800 msnm (Acevedo 2006).",
+        "historiaNatural": "Terrestre, nocturna, se alimenta de salamandras, ranas y huevos de anfibios (Köhler 2003).",
+        "venenosidad": "Levemente venenosa",
+        "img": "https://inaturalist-open-data.s3.amazonaws.com/photos/27164627/original.jpeg"
+    },
+    {
+        "id": 35,
+        "familia": "Colubridae",
+        "nombreComun": "Ratonera",
+        "nombreCientifico": "Pseudelaphe flavirufa",
+        "descripcion": "Serpiente que alcanza los 1.50 m de largo (Köhler 2003), tiene cabeza y ojos grandes y pupila redonda. Es de color blanco cremoso o amarillento con un patrón de manchas rojas oscuras delineadas de negro, de forma irregular que se distribuyen a lo largo de todo el cuerpo. En los adultos el color de fondo cambia a gris, y las manchas cambian a marrón oscuro. La parte dorsal de la cabeza es grisácea o marrón claro.",
+        "distribucionEnGuatemala": "Se encuentra en Petén y en la parte norte de Cobán de los 0 a los 300 msnm.",
+        "historiaNatural": "Principalmente nocturna, se puede encontrar en el suelo y en los árboles. Se alimenta de mamíferos pequeños, aves y posiblemente huevos (Lee 2000).",
+        "venenosidad": "No venenosa",
+        "img": "https://reptile-database.reptarium.cz/content/photo_rd_14/Pseudelaphe-flavirufa-03000044927_01.jpg"
+    },
+    {
+        "id": 36,
+        "familia": "Colubridae",
+        "nombreComun": "Sabanera",
+        "nombreCientifico": "Rhadinaea godmani",
+        "descripcion": "Serpiente que alcanza 56 cm de longitud (Köhler 2003). Color marrón con líneas oscuras a lo largo del cuerpo. Tiene manchas blancas en el rostro y ojos grandes. El vientre es amarillento.",
+        "distribucionEnGuatemala": "Sierra Madre, en elevaciones de los 1000 a 2650 msnm en bosques de pino encino y bosque nubosos (Köhler 2003).",
+        "historiaNatural": "Terrestre, diurna. Se puede encontrar bajo piedras, troncos, raíces, o atravesando senderos. Se alimenta de salamandras, ranas y lagartijas (Köhler 2003).",
+        "venenosidad": "No venenosa",
+        "img": "https://reptile-database.reptarium.cz/content/photo_rd_01/Rhadinella-godmani-03000029131_01.jpg"
+    },
+    {
+        "id": 37,
+        "familia": "Colubridae",
+        "nombreComun": "Sabanera",
+        "nombreCientifico": "Rhadinaea kinkelini",
+        "descripcion": "Serpiente pequeña, puede alcanzar los 37 cm (Köhler 2003). Es de color negruzco, con líneas pálidas a lo largo del cuerpo. Ojos grandes, mandíbula y vientre blancos.",
+        "distribucionEnGuatemala": "Región central y oriente central, en elevaciones de los 1300 a los 22000 msnm (Köhler 2003).",
+        "historiaNatural": "Similar a R.godmani.",
+        "venenosidad": "No venenosa",
+        "img": "https://inaturalist-open-data.s3.amazonaws.com/photos/7757411/medium.jpg"
+    },
+    {
+        "id": 38,
+        "familia": "Colubridae",
+        "nombreComun": "Coralillo",
+        "nombreCientifico": "Scaphiodontophis annulatus",
+        "descripcion": "Llega a medir 90 cm (Köhler 2003). Es anillada en la primera parte del cuerpo, y es de color marrón con líneas de puntos en el resto del cuerpo.",
+        "distribucionEnGuatemala": "Se encuentra a lo largo de la boca costa de Guatemala y en el norte en los departamentos de Petén, Izabal y norte de Alta Verapaz.",
+        "historiaNatural": "Terrestre, diurna. Vive bajo las hojas y troncos y se alimenta de lagartijas (Köhler 2003).",
+        "venenosidad": "No venenosa",
+        "img": "https://reptile-database.reptarium.cz/content/photo_rd_00/Scaphiodontophis-annulatus-03000028200_01.jpg"
+    },
+    {
+        "id": 39,
+        "familia": "Colubridae",
+        "nombreComun": "Coralillo",
+        "nombreCientifico": "Scolecophis atrocinctus",
+        "descripcion": "Serpiente pequeña que mide alrededor de 40 cm (Köhler 2003), con anillos negros y blancos, con una mancha color naranja brillante sobre cada anillo blanco. Tiene ojos pequeños.",
+        "distribucionEnGuatemala": "Zona sur central de Guatemala (Acevedo 2006).",
+        "historiaNatural": "Es terrestre, diurna, se alimenta de insectos y arácnidos (Köhler 2003).",
+        "venenosidad": "Poca información disponible, pero probablemente es levemente venenosa.",
+        "img": "https://reptile-database.reptarium.cz/content/photo_rd_2023/Scolecophis-atrocinctus-03000050027_01.jpg"
+    },
+    {
+        "id": 40,
+        "familia": "Colubridae",
+        "nombreComun": "Ratonera",
+        "nombreCientifico": "Senticolis triaspis",
+        "descripcion": "Puede llegar a medir hasta 80 cm de longitud (Köhler 2003). El dorso puede ser rojizo, marrón o grisáceo, puede ser de un solo color uniforme o presentar manchas oscuras, barras transversales o incluso líneas laterales. El vientre puede ser color crema pálido, rosado o salmón y presenta manchas triangulares o rectangulares principalmente en la parte media. Tiene los ojos medianos con pupila redonda.",
+        "distribucionEnGuatemala": "Petén, Izabal y Alta Verapaz (Campbell y Vannini 1989) hasta los 1,650 msnm (Köhler 2003).",
+        "historiaNatural": "Terrestre, nocturna, se alimenta exclusivamente de arañas y escorpiones (Köhler 2003).",
+        "venenosidad": "Levemente venenosa",
+        "img": "https://upload.wikimedia.org/wikipedia/commons/5/55/Northern_Green_Ratsnake_%28Senticolis_triaspis_intermedia%29.jpg"
+    },
+    {
+        "id": 41,
+        "familia": "Colubridae",
+        "nombreComun": "Sabanera, alacranera",
+        "nombreCientifico": "Stenorrhina degenhardtii",
+        "descripcion": "Puede llegar a medir hasta 80 cm de longitud (Köhler 2003). El dorso puede ser rojizo, marrón o grisáceo, puede ser de un solo color uniforme o presentar manchas oscuras, barras transversales o incluso líneas laterales. El vientre puede ser color crema pálido, rosado o salmón y presenta manchas triangulares o rectangulares principalmente en la parte media. Tiene los ojos medianos con pupila redonda.",
+        "distribucionEnGuatemala": "Petén, Izabal y Alta Verapaz (Campbell y Vannini 1989) hasta los 1,650 msnm (Köhler 2003).",
+        "historiaNatural": "Terrestre, nocturna, se alimenta exclusivamente de arañas y escorpiones (Köhler 2003).",
+        "venenosidad": "Levemente venenosa",
+        "img": "https://inaturalist-open-data.s3.amazonaws.com/photos/103919866/original.jpeg"
+    },
+    {
+        "id": 42,
+        "familia": "Colubridae",
+        "nombreComun": "Sabanera",
+        "nombreCientifico": "Stenorrhina freminvillei",
+        "descripcion": "Alcanza 70 cm de longitud (Köhler 2003), ojos medianos con pupila redonda. Puede ser gris, marrón o rojo, con líneas oscuras bien definidas a lo largo del cuerpo.",
+        "distribucionEnGuatemala": "Prácticamente en todo el país, en elevaciones de los cero a los 2200 msnm en bosque seco y bosque húmedo (Campbell y Vannini 1989).",
+        "historiaNatural": "Terrestre, nocturna, se alimenta exclusivamente de arañas y escorpiones (Köhler 2003).",
+        "venenosidad": "Levemente venenosa",
+        "img": "https://inaturalist-open-data.s3.amazonaws.com/photos/8769604/original.jpg"
+    },
+    {
+        "id": 43,
+        "familia": "Colubridae",
+        "nombreComun": "Chichicúa, culebra voladora",
+        "nombreCientifico": "Spilotes pullatus",
+        "descripcion": "Serpiente grande que alcanza los 2.6 m de longitud (Köhler 2003). Color negro con manchas amarillas. Cuando se ve amenazada aplana el cuello lateralmente.",
+        "distribucionEnGuatemala": "Petén, Izabal, Alta Verapaz y costa sur del país. Hasta los 1500 msnm en bosques seco, húmedo y lluvioso (Köhler 2003).",
+        "historiaNatural": "Diurna, terrestre y arbórea, muy rápida y ágil. Se alimenta de pequeños mamíferos, aves y huevos de aves (Köhler 2003).",
+        "venenosidad": "No venenosa",
+        "img": "https://static.inaturalist.org/photos/123107755/large.jpeg"
+    },
+    {
+      "id": 46,
+      "familia": "Colubridae",
+      "nombreComun": "Traga ciempiés",
+      "nombreCientifico": "Tantilla armillata",
+      "descripcion": "Serpiente marrón con una línea negra a lo largo del dorso, con un collar formado por puntos blancuzcos. Cabeza negra con dos puntos blancos en la región parietal. Alcanza los 50 cm de largo (Köhler 2003).",
+      "distribucionEnGuatemala": "Centro sur de Guatemala hacia El Salvador y el Valle del Motagua (Acevedo 2006).",
+      "historiaNatural": "Terrestre, nocturna, se alimenta de ciempiés y larvas de escarabajos (Lee 2000).",
+      "venenosidad": "Moderadamente venenosa",
+      "img": "https://reptile-database.reptarium.cz/content/photo_rd_16/Tantilla-armillata-03000047476_01.jpg"
+  },
+  {
+      "id": 47,
+      "familia": "Colubridae",
+      "nombreComun": "Traga ciempiés",
+      "nombreCientifico": "Tantilla taeniata",
+      "descripcion": "Serpiente pequeña y delgada, que puede llegar a medir hasta 41 cm de largo (Köhler 2003). Color marrón rojizo con una línea naranja a lo largo del dorso. Tiene un collar blanco.",
+      "distribucionEnGuatemala": "Se encuentra en el altiplano y montañas del este de Guatemala (Acevedo 2006).",
+      "historiaNatural": "Terrestre, nocturna, se alimenta de ciempiés y larvas de escarabajos (Lee 2000).",
+      "venenosidad": "Moderadamente venenosa",
+      "img": "https://bioone.org/ContentImages/Journals/herp/73/4/Herpetologica-D-16-00080.1/graphic/i0018-0831-73-4-338-f03.jpg"
+  },
+  {
+      "id": 48,
+      "familia": "Colubridae",
+      "nombreComun": "Ranera",
+      "nombreCientifico": "Thamnophis cyrtopsis",
+      "descripcion": "Puede medir hasta 1.15 m (Köhler 2003), tiene el dorso marrón con una línea central amarilla a lo largo del cuerpo y manchas negras laterales, vientre blancuzco. La cabeza es gris celeste con una mancha negra en la nuca.",
+      "distribucionEnGuatemala": "Huehuetenango, San Marcos y Quetzaltenango, de los 900 a los 2500 msnm (Campbell y Vannini 1989).",
+      "historiaNatural": "Serpiente semiacuática, se encuentra en cuerpos de agua, se alimenta de renacuajos, ranas, peces y lombrices. Son principalmente diurnas (Köhler 2003).",
+      "venenosidad": "No venenosa",
+      "img": "https://inaturalist-open-data.s3.amazonaws.com/photos/4107627/original.jpg"
+  },
+  {
+      "id": 49,
+      "familia": "Colubridae",
+      "nombreComun": "Ranera",
+      "nombreCientifico": "Thamnophis fulvus",
+      "descripcion": "Mide 65 cm (Köhler 2003). Dorso marrón con una línea clara central a lo largo del cuerpo, manchas negras y blancas en el cuerpo. Presenta rayas negras en la mandíbula. Aplasta el cuerpo cuando se ve amenazada.",
+      "distribucionEnGuatemala": "Sierra Madre de los 1400 a 3350 msnm (Köhler 2003).",
+      "historiaNatural": "Similar a T. cyrtopsis.",
+      "venenosidad": "No venenosa",
+      "img": "https://inaturalist-open-data.s3.amazonaws.com/photos/55266219/large.jpg"
+  },
+  {
+      "id": 50,
+      "familia": "Colubridae",
+      "nombreComun": "Ranera",
+      "nombreCientifico": "Thamnophis marcianus",
+      "descripcion": "Mide hasta 1.10 m de longitud (Köhler 2003). El cuerpo tiene un patrón de manchas cuadriculado marrón y blanco que cuando se aplana parece un tablero de ajedrez. Tiene líneas negras en la mandíbula.",
+      "distribucionEnGuatemala": "Izabal, de los cero a los 100 msnm (Campbell y Vannini 1989).",
+      "historiaNatural": "Similar a T. cyrtopsis.",
+      "venenosidad": "No venenosa",
+      "img": "https://static.inaturalist.org/photos/39769267/large.jpg"
+  },
+  {
+      "id": 51,
+      "familia": "Colubridae",
+      "nombreComun": "Ranera",
+      "nombreCientifico": "Thamnophis proximus",
+      "descripcion": "Mide 90 cm (Köhler 2003). Dorso verde olivo con tres líneas amarillas a lo largo del cuerpo. Vientre amarillo.",
+      "distribucionEnGuatemala": "Norte del Petén y costa sur desde Escuintla hasta Jutiapa (Köhler 2003).",
+      "historiaNatural": "Similar a T. cyrtopsis.",
+      "venenosidad": "No venenosa",
+      "img": "https://inaturalist-open-data.s3.amazonaws.com/photos/393929/original.jpg"
+  },
+  {
+      "id": 52,
+      "familia": "Colubridae",
+      "nombreComun": "Cantil de agua",
+      "nombreCientifico": "Tretanorhinus nigroluteus",
+      "descripcion": "Serpiente acuática, pequeña, larga, llega a los 76 cm (Köhler 2003). Ojos situados en el dorso del rostro. Color marrón con manchas grises en el dorso, y vientre color ladrillo.",
+      "distribucionEnGuatemala": "Petén e Izabal (Köhler 2003).",
+      "historiaNatural": "Vive en cuerpos de agua. Rara vez sale del agua. Nocturna, se alimenta de pequeños peces y renacuajos (Köhler 2003).",
+      "venenosidad": "No venenosa",
+      "img": "https://reptile-database.reptarium.cz/content/photo_rd_05/Tretanorhinus-nigroluteus-03000033519_01.jpg"
+  },
+  {
+      "id": 53,
+      "familia": "Colubridae",
+      "nombreComun": "Castellana",
+      "nombreCientifico": "Trimorphodon biscutatus",
+      "descripcion": "Llega a 1.75 m (Köhler 2003). Color beige grisáceo o blancuzco, con manchas dorsales color marrón bordeadas de negro, en forma de diamante, en el cráneo, las manchas forman una letra “V”.",
+      "distribucionEnGuatemala": "Oriente del país, costa sur e Izabal, de los cero hasta los 500 m (Köhler 2003, Campbell y Vannini 1989).",
+      "historiaNatural": "Nocturna, semiarbórea, se alimenta de aves, lagartijas, pequeños mamíferos (Köhler 2003).",
+      "venenosidad": "Moderadamente venenosa",
+      "img": "https://inaturalist-open-data.s3.amazonaws.com/photos/2145289/large.jpg"
+  },
+  {
+      "id": 54,
+      "familia": "Colubridae",
+      "nombreComun": "Caracolera",
+      "nombreCientifico": "Tropidodipsas fischeri",
+      "descripcion": "Serpiente que alcanza los 65 cm de largo (Köhler 2003). Color gris con bandas transversales negras a lo largo del cuerpo, cabeza pequeña, ojos oscuros, pupila redonda.",
+      "distribucionEnGuatemala": "Se encuentra en las partes altas (bosques de pino encino y en bosque nuboso de los 1,520 a los 3,800 msnm) de los departamentos de Suchitepéquez, Zacapa, Chimaltenango, Guatemala y Sacatepéquez (Campbell y Vannini 1989).",
+      "historiaNatural": "Nocturna, terrestre, se alimenta de caracoles y babosas (Köhler 2003).",
+      "venenosidad": "No venenosa",
+      "img": "https://inaturalist-open-data.s3.amazonaws.com/photos/13532017/large.jpg"
+  },
+  {
+      "id": 55,
+      "familia": "Colubridae",
+      "nombreComun": "Coralillo, caracolera",
+      "nombreCientifico": "Tropidodipsas sartorii",
+      "descripcion": "Serpiente mediana que alcanza 85 cm de largo (Köhler 2003). Color negro con anillos que pueden ser rojos o blanco amarillentos.",
+      "distribucionEnGuatemala": "Petén, Izabal y costa sur, desde Escuintla hasta Jutiapa, de los 0 a los 1400 msnm (Köhler 2003, Campbell y Vannini 1989).",
+      "historiaNatural": "Nocturna, terrestre, se alimenta de caracoles y babosas (Köhler 2003).",
+      "venenosidad": "No venenosa",
+      "img": "https://inaturalist-open-data.s3.amazonaws.com/photos/14382361/large.jpeg"
+  },
+  {
+      "id": 56,
+      "familia": "Colubridae",
+      "nombreComun": "Falsa barba amarilla",
+      "nombreCientifico": "Xenodon rabdocephalus",
+      "descripcion": "Alcanza los 80 cm de largo (Campbell 1998). Color marrón grisáceo, con patrón de marcas bordeadas con negro y blanco. Cuando se ve amenazada se aplana para verse más ancha. Pupilas redondas y escamas lisas.",
+      "distribucionEnGuatemala": "Se encuentra en el norte y sur de Guatemala, de los 0 hasta los 1300 msnm en bosque seco, húmedo y lluvioso (Köhler 2003, Campbell y Vannini 1989).",
+      "historiaNatural": "Se confunde con la serpiente barba amarilla. Terrestre, puede ser nocturna y diurna. Se alimenta de sapos y ranas (Campbell 1998).",
+      "venenosidad": "Moderadamente venenosa",
+      "img": "https://inaturalist-open-data.s3.amazonaws.com/photos/14034576/original.jpg"
+  },
+  {
+    "id": 57,
+    "familia": "Elapidae",
+    "nombreComun": "Coral, coralillo",
+    "nombreCientifico": "Micrurus browni",
+    "descripcion": "Llega a medir 83 cm de largo (Köhler 2003). Es una serpiente delgada de cabeza pequeña, es muy colorida y vistosa. Es de color rojo naranja con anillos amarillos y negros colocados excepto en la cola en donde solo posee anillos amarillos y negros.",
+    "distribucionEnGuatemala": "Huehuetenango, San Marcos, Quetzaltenango y Sacatepéquez, de los 500 a los 2000 msnm en bosque seco, bosque nuboso y bosque de pino-encino.",
+    "historiaNatural": "Es de hábitos terrestres, se encuentra bajo las hojas, es principalmente nocturna, pero se puede observar activa en las primeras horas de la mañana o las últimas de la tarde. Se alimenta principalmente de serpientes pequeñas que viven bajo las hojas, pero también puede comer lagartijas y anguilas (Campbell 1998).",
+    "venenosidad": "Venenosa",
+    "img": "https://inaturalist-open-data.s3.amazonaws.com/photos/116480383/original.jpeg"
+  },
+  {
+      "id": 58,
+      "familia": "Elapidae",
+      "nombreComun": "Coral, coralillo, gargantilla",
+      "nombreCientifico": "Micrurus diastema",
+      "descripcion": "Llega a medir hasta 90 cm de largo (Köhler 2003). Es una serpiente delgada de cabeza pequeña, el patrón de color es igual al de M. browni, pero las escamas rojas están manchadas de negro.",
+      "distribucionEnGuatemala": "Norte de Guatemala en los departamentos de Cobán, Petén e Izabal, de los 0 hasta los 1250 msnm (Köhler 2003, Campbell y Vannini 1989).",
+      "historiaNatural": "Igual a M. browni.",
+      "venenosidad": "Venenosa",
+      "img": "https://inaturalist-open-data.s3.amazonaws.com/photos/11574060/original.jpg"
+  },
+  {
+      "id": 59,
+      "familia": "Elapidae",
+      "nombreComun": "Coral, coralillo, gargantilla",
+      "nombreCientifico": "Micrurus elegans",
+      "descripcion": "Alcanza 75 cm de largo (Köhler 2003), tiene un patrón de anillos irregulares negros, blancos y anaranjados en todo el cuerpo, excepto en la cola donde únicamente tiene anillos blancos y negros.",
+      "distribucionEnGuatemala": "Se encuentra en las Verapaces, en Quiché y Huehuetenango de los 1000 a los 1830 msnm (Köhler 2003).",
+      "historiaNatural": "Igual a M. browni.",
+      "venenosidad": "Venenosa",
+      "img": "https://inaturalist-open-data.s3.amazonaws.com/photos/1520086/large.jpg"
+  },
+  {
+      "id": 60,
+      "familia": "Elapidae",
+      "nombreComun": "Coral, coralillo, gargantilla, coral de anillos anchos",
+      "nombreCientifico": "Micrurus latifasciatus",
+      "descripcion": "Mide 1.15 m de largo (Köhler 2003). Trompa negra, seguida de un anillo amarillo y luego uno negro. Los anillos rojos son bastante anchos.",
+      "distribucionEnGuatemala": "Centro-oeste de la boca costa del Pacífico (Acevedo 2006).",
+      "historiaNatural": "Igual a M. browni.",
+      "venenosidad": "Venenosa",
+      "img": "https://inaturalist-open-data.s3.amazonaws.com/photos/120547940/large.jpeg"
+  },
+  {
+      "id": 61,
+      "familia": "Elapidae",
+      "nombreComun": "Culebra marina, serpiente marina",
+      "nombreCientifico": "Pelamis platura",
+      "descripcion": "Generalmente alcanza los 75 cm de largo (Köhler 2003). Dorso negro, vientre amarillo, cola aplanada en forma de aleta.",
+      "distribucionEnGuatemala": "Se distribuye en la costa pacífica de Guatemala (Campbell y Vannini 1989).",
+      "historiaNatural": "Serpiente que habita en el mar, se alimenta de pequeños peces y puede encontrarse en grupos. Aparentemente diurna.",
+      "venenosidad": "Venenosa",
+      "img": "https://inaturalist-open-data.s3.amazonaws.com/photos/67270529/original.jpg"
+  },
+    {
+      "id": 62,
+      "familia": "Leptotyphlopidae",
+      "nombreComun": "Culebrita de tierra común, frijolillo, culebrilla hilo",
+      "nombreCientifico": "Epictia goudotii",
+      "descripcion": "Serpiente delgada y pequeña con aspecto de lombriz, de hasta 18.5 cm de largo (Köhler 2003). El color es generalmente negro brillante aunque puede ser rayada. Ambos extremos son similares por lo que se dificulta identificar la cabeza. Estas serpientes poseen ojos primitivos.",
+      "distribucionEnGuatemala": "Todo el país excepto el altiplano occidental (Köhler 2003) en elevaciones de los 0 a los 1600 msnm (Campbell y Vannini 1989). La distribución para Petén es incierta.",
+      "historiaNatural": "Es activa de día y de noche, vive principalmente bajo la tierra y se le encuentra al levantar troncos y piedras. Se alimenta de huevos, larvas y adultos de termitas y hormigas así como de otros artrópodos de cuerpo blando. La hembra oviposita de 8 a 12 huevos entre junio y julio (Campbell 1998).",
+      "venenosidad": "No venenosa",
+      "img": "https://inaturalist-open-data.s3.amazonaws.com/photos/11407477/original.jpg"
+   },
+   {
+       "id": 63,
+       "familia": "Loxocemidae",
+       "nombreComun": "Chatilla",
+       "nombreCientifico": "Loxocemus bicolor",
+       "descripcion": "Alcanza una longitud de 1.53 m (Köhler 2003). Color gris oscuro en el dorso y claro en el vientre. Ojos pequeños y nariz puntiaguda.",
+       "distribucionEnGuatemala": "Costa sur y matorral espinoso del oriente (Köhler 2003).",
+       "historiaNatural": "Utiliza su nariz para excavar túneles. Se alimenta de lagartijas y pequeños mamíferos. Diurna y nocturna (Köhler 2003).",
+       "venenosidad": "No venenosa",
+       "img": "https://inaturalist-open-data.s3.amazonaws.com/photos/87018328/large.jpeg"
+   },
+   {
+       "id": 64,
+       "familia": "Viperidae",
+       "nombreComun": "Cantil de agua, Cantil cola de hueso",
+       "nombreCientifico": "Agkistrodon bilineatus",
+       "descripcion": "Puede medir hasta 1.40 m (Campbell 1998). Serpiente ancha de cola delgada y cabeza grande. El color del cuerpo es marrón rojizo con un patrón de bandas que en los jóvenes es más evidente. Son características en esta especie las dos líneas blancas que parten de la nariz y recorren el rostro hasta la parte posterior de la cabeza.",
+       "distribucionEnGuatemala": "Costa sur, Petén, valle del río Chixoy y probablemente Zacapa (Acevedo 2006).",
+       "historiaNatural": "Nocturna, terrestre, poco común. Habita principalmente en bosque húmedo, bosque seco espinoso, y en la sabana petenera. Se alimenta de una amplia variedad de organismos que incluye anfibios, pequeños mamíferos, peces, reptiles e invertebrados. Los jóvenes atraen a las presas utilizando la cola como señuelo (Campbell 1998).",
+       "venenosidad": "Venenosa",
+       "img": "https://static.inaturalist.org/photos/29213966/large.jpg"
+   },
+   {
+       "id": 65,
+       "familia": "Viperidae",
+       "nombreComun": "Mano de piedra",
+       "nombreCientifico": "Atropoides mexicanus",
+       "descripcion": "Serpiente muy robusta de cabeza grande que puede medir hasta 90 cm de largo. El color de fondo es marrón claro y presenta una serie de manchas oscuras con forma de rombos que se distribuyen en el dorso y en los costados. Presenta una franja oscura que se extiende desde el ojo hasta el cuello.",
+       "distribucionEnGuatemala": "Tierras bajas a elevaciones moderadas y bosques nubosos del norte del país (Acevedo 2006).",
+       "historiaNatural": "Serpiente de hábitos terrestres, activa de día y de noche. Puede encontrarse entre la hojarasca o las raíces de los árboles. Se alimenta de lagartijas y roedores.",
+       "venenosidad": "Venenosa",
+       "img": "https://upload.wikimedia.org/wikipedia/commons/1/1e/Atropoides-nummifer-1a.jpg"
+   },
+   {
+       "id": 66,
+       "familia": "Viperidae",
+       "nombreComun": "Mano de piedra",
+       "nombreCientifico": "Atropides occiduus",
+       "descripcion": "Serpiente corta y robusta que puede medir hasta 70 cm de longitud. El color puede ser gris o marrón grisáceo con un patrón de manchas dorsales oscuras con forma de rombos que se extienden hacia los costados y se acercan a otras manchas del vientre y costado inferior. Presenta una franja oscura que se extiende desde el ojo hasta el cuello.",
+       "distribucionEnGuatemala": "Cadena volcánica del Pacífico (Acevedo 2006).",
+       "historiaNatural": "Serpiente de hábitos principalmente diurnos. Es terrestre y se mantiene entre la hojarasca. Se alimenta posiblemente de lagartijas, ranas y pequeños mamíferos.",
+       "venenosidad": "Venenosa",
+       "img": "https://inaturalist-open-data.s3.amazonaws.com/photos/70869/medium.jpg"
+   },
+   {
+       "id": 67,
+       "familia": "Viperidae",
+       "nombreComun": "Mano de piedra",
+       "nombreCientifico": "Atropoides olmec",
+       "descripcion": "Serpiente robusta, de cabeza grande, que puede medir hasta 75 cm de largo. El color de fondo puede ser crema, beige, marrón claro, naranja o rosáceo. Presenta manchas oscuras en forma de rombos alargados que pueden extenderse hasta el vientre. Presenta una franja oscura que se extiende desde el ojo hasta el cuello.",
+       "distribucionEnGuatemala": "Montañas del centro de Baja Verapaz (Acevedo 2006).",
+       "historiaNatural": "Serpiente de hábitos crepusculares y nocturnos. Durante el día puede encontrarse entre la hojarasca o debajo de troncos. Se alimenta de lagartijas y pequeños mamíferos.",
+       "venenosidad": "Venenosa",
+       "img": "https://static.inaturalist.org/photos/378403/large.jpg"
+   },
+   {
+       "id": 68,
+       "familia": "Viperidae",
+       "nombreComun": "Cantil verde, gushnayera",
+       "nombreCientifico": "Bothriechis aurifer",
+       "descripcion": "Serpiente mediana que puede alcanzar hasta 1 m de largo (Köhler 2003), ojos pequeños con pupila vertical. Es de color verde con un patrón de manchas amarillas bordeadas de negro que se distribuyen en el dorso, presenta bandas negras que van de la parte posterior de los ojos hacia el borde posterior de la cabeza.",
+       "distribucionEnGuatemala": "Se distribuye en Baja Verapaz, desde los 1200 hasta los 2300 msnm en bosque nuboso y bosque de pino encino (Köhler, 2003).",
+       "historiaNatural": "Víbora arborícola de hábitos nocturnos. Cola prensil, se alimenta de lagartijas, aves y pequeños mamíferos (Köhler 2003).",
+       "venenosidad": "Venenosa",
+       "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/af/Bothriechis_aurifer_%284%29.jpg/250px-Bothriechis_aurifer_%284%29.jpg"
+   },
+   {
+       "id": 69,
+       "familia": "Viperidae",
+       "nombreComun": "Nauyaca bicolor, gushnayera",
+       "nombreCientifico": "Bothriechis bicolor",
+       "descripcion": "Serpiente que puede medir hasta 1 metro (Köhler 2003). Tiene la cabeza grande y el cuerpo delgado. Es de color verde pálido uniforme, a veces puede presentar manchas azul verdosas.",
+       "distribucionEnGuatemala": "Boca costa sur, desde la frontera con México hasta el volcán de Agua, de los 500 a los 2000 msnm en bosque húmedo y bosque nuboso (Köhler, 2003).",
+       "historiaNatural": "Víbora arborícola de hábitos nocturnos. Cola prensil, se alimenta de lagartijas, aves y pequeños mamíferos (Köhler 2003).",
+       "venenosidad": "Venenosa",
+       "img": "https://inaturalist-open-data.s3.amazonaws.com/photos/54981055/original.jpg"
+   },
+   {
+       "id": 70,
+       "familia": "Viperidae",
+       "nombreComun": "Víbora de pestañas",
+       "nombreCientifico": "Bothriechis schlegelii",
+       "descripcion": "Puede medir hasta 80 cm de largo (Köhler 2003). Es mediana, con cabeza grande. Es llamada víbora de pestañas debido a unas estructuras que posee en el borde superior del ojo. El color de fondo es verde a verde grisáceo con manchas oscuras en el dorso, en los lados y en el vientre. Tiene una franja oscura que sale de la parte posterior del ojo hacia el cuello.",
+       "distribucionEnGuatemala": "Norte y noreste del país, en Petén, Izabal y Alta Verapaz de los 0 a los 1400 msnm, en bosques húmedo, lluvioso y nuboso (Köhler 2003).",
+       "historiaNatural": "Víbora arborícola de hábitos nocturnos. Cola prensil, se alimenta de lagartijas, aves y pequeños mamíferos (Köhler 2003).",
+       "venenosidad": "Venenosa",
+       "img": "https://upload.wikimedia.org/wikipedia/commons/9/90/Bothriechis_schlegelii_%28La_Selva_Biological_Station%29.jpg"
+   },
+   {
+       "id": 71,
+       "familia": "Viperidae",
+       "nombreComun": "No existe",
+       "nombreCientifico": "Bothriechis thalassinus",
+       "descripcion": "Esta serpiente es de descubrimiento relativamente reciente y se han capturado muy pocos individuos. Los jóvenes son de color verde amarillento con manchas turquesa, y los adultos de color azul verdoso.",
+       "distribucionEnGuatemala": "En Guatemala se encuentra en Sierra de Caral, Izabal y Sierra del Merendón, Zacapa, en bosque nuboso, de los 885 a los 1450 msnm (Campbell y Smith 2000).",
+       "historiaNatural": "Víbora arborícola de hábitos nocturnos, cola prensil. Se le ha encontrado cerca de riachuelos (Campbell y Smith 2000).",
+       "venenosidad": "Venenosa",
+       "img": "https://inaturalist-open-data.s3.amazonaws.com/photos/24737678/original.jpeg"
+   },
+   {
+       "id": 72,
+       "familia": "Viperidae",
+       "nombreComun": "Barba amarilla, terciopelo, devanador, nahuyaca, cantil boca dorada",
+       "nombreCientifico": "Bothrops asper",
+       "descripcion": "Puede medir hasta 2.4 m (Köhler 2003). Tiene la cabeza grande con forma de lanza. Color marrón y gris, con manchas triangulares negras, con un patrón dorsal de franjas blancas en forma de “X”, además presenta una franja negra que va de la parte posterior del ojo hacia el ángulo de la mandíbula. La piel que recubre la boca es de color crema o amarillento.",
+       "distribucionEnGuatemala": "Boca costa sur, desde la frontera con México hasta el volcán de Agua, y en el norte en los departamentos de Petén, Izabal y Alta y Baja Verapaz de los 0 a los 1000 msnm (Köhler, 2003).",
+       "historiaNatural": "Serpiente terrestre, nocturna. Se alimenta de ranas, lagartijas y pequeños mamíferos. Es considerada la serpiente más peligrosa del país (Köhler 2003, OPS 2009).",
+       "venenosidad": "Venenosa",
+       "img": "https://static.inaturalist.org/photos/41242077/large.jpg"
+   },
+   {
+       "id": 73,
+       "familia": "Viperidae",
+       "nombreComun": "Cheta, cantil de tierra fría, frijolillo",
+       "nombreCientifico": "Cerrophidion godmani",
+       "descripcion": "Serpiente pequeña que puede llegar a medir hasta 75 cm (Köhler 2003). El color de fondo es marrón rojizo, con manchas dorsales oscuras semicirculares que forman un patrón en zigzag hacia los extremos. Tiene una franja oscura que va desde la parte posterior del ojo hacia el ángulo de la mandíbula. El vientre puede ser desde blanco hasta rojizo naranja con pequeñas motas oscuras.",
+       "distribucionEnGuatemala": "Sierra de los Cuchumatanes, Sierra de Cuilco, meseta central de Guatemala, Sierra de Chuacús, altiplano de Alta Verapaz, Sierra de las Minas, altiplano sureste, y volcanes de la boca costa sur, de los 1,600 a los 3,600 msnm. Se encuentra en bosque nuboso y bosque de pino y encino. (Köhler 2003, Acevedo 2006).",
+       "historiaNatural": "Serpiente principalmente diurna terrestre que se alimenta de insectos, salamandras, ranas, lagartijas, y pequeños mamíferos (Campbell y Brodie, 1992).",
+       "venenosidad": "Venenosa",
+       "img": "https://static.inaturalist.org/photos/321929/large.jpg"
+   },
+   {
+       "id": 74,
+       "familia": "Viperidae",
+       "nombreComun": "Timbo, castellana, tamagaz",
+       "nombreCientifico": "Porthidium nasutum",
+       "descripcion": "Serpiente mediana, de cuerpo grueso y cabeza grande. Puede llegar a medir 60 cm (Köhler 2003). Es de color gris marrón o gris rojizo con manchas oscuras a lo largo del dorso en forma de triángulo invertido. Es característica de esta especie la nariz puntiaguda dirigida hacia arriba.",
+       "distribucionEnGuatemala": "Se encuentra en Petén, Izabal y la parte Norte de Alta Verapaz, de los 0 a los 900 msnm en bosques lluviosos (Köhler 2003).",
+       "historiaNatural": "Es crepuscular y nocturna, se alimenta de ranas, lagartijas, serpientes pequeñas y pequeños mamíferos (Lee 2000).",
+       "venenosidad": "Venenosa",
+       "img": "https://ecosdelbosque.com/sites/default/files/styles/specie_slider/public/2020-12/porthidium_nasutum_01.jpg?itok=v0jEvioQ"
+   },
+   {
+       "id": 75,
+       "familia": "Viperidae",
+       "nombreComun": "Timbo, castellana, tamagaz",
+       "nombreCientifico": "Porthidium ophryomegas",
+       "descripcion": "Serpiente mediana que puede llegar a medir 77 cm de largo (Köhler 2003). Es gris o marrón bronceado, con manchas más oscuras de forma irregular a lo largo del dorso y a los lados del cuerpo. Tiene una línea amarilla delgada característica, que corre en la parte central del dorso.",
+       "distribucionEnGuatemala": "Costa sur, este y parte del centro del país en áreas secas de los 0 a los 1000 msnm (Köhler 2003).",
+       "historiaNatural": "Es crepuscular y nocturna. Se alimenta de ranas, lagartijas, serpientes pequeñas y pequeños mamíferos (Köhler 2003).",
+       "venenosidad": "Venenosa",
+       "img": "https://inaturalist-open-data.s3.amazonaws.com/photos/47833130/large.jpeg"
+   }
+   
+    ]
+  }
